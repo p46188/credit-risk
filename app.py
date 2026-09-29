@@ -198,7 +198,7 @@ if st.button("Predict Default Risk", type="primary"):
     probability = model.predict_proba(scaled_data)[0][1]
 
     # Keep current model's standard threshold
-    threshold = 0.50
+    threshold = 0.30
 
     st.subheader("Risk Assessment")
 
